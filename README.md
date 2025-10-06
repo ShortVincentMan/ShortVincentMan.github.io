@@ -1,3 +1,4 @@
 # Vincent Le's Personal Website
 This is a personal website built using the Hack4Impact Starter Pack!
 My name is **Vincent Le!** As of writing this, I'm a first year **Computer Engineering** major at **Cal Poly San Luis Obispo**. For the past two summers, I was **interning** at an **Information Technology Managed Service Provider** company in **San Jose, CA**. I have learned a lot about information technology, especially with computer repairs, blue screen of death repairs, executive security software like Hornet and Altaro, and lots of database migration. I hope to gain more experiences in the future as I pursue my technical career and CPE major!
+[Visit it Here!](https://ShortVincentMan.github.io)
