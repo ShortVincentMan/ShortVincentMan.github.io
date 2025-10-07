@@ -170,19 +170,31 @@ main {
 }
 
 /* CSS for portfolio grid */
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
 
 .project {
   display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  margin: 1em 0 2em 0;
+  flex-direction: column;
+  flex: 1 1 520px;
+  max-width: 520px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
 
   /* Debug border */
   /* border: 2px solid blue; */
 }
 .project-img img {
-    max-width: 500px;
-    border-radius: 3px;
+    display:block;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    border-radius: 0;
 }
 .item-link {
   width: 70%;
@@ -203,19 +215,10 @@ main {
 }
 
 .project-details {
-  display: flex;
-  background-color: var(--cg-white);
-  width: 30%;
-  height: 500px;
-  flex-shrink: 1;
-  padding: 0 20px;
-  margin: 0px;
-  line-height: 1.5;
-  overflow: scroll;
-
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 16px 20px;
+  overflow: visible;
 
   /* Debug border */
   /* border: 2px solid green; */
@@ -241,6 +244,10 @@ main {
   font-weight: bold;
   font-size: 20px;
 }
+.project-date {
+  font-weight: bold;
+  font-size: 16px;
+}
 
 /* CSS for home page */
 
@@ -252,13 +259,13 @@ main {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
   border-radius: 5px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .about-image img {
   max-width: 300px;
   border-radius: 3px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 .about-text {
@@ -388,5 +395,7 @@ form {
 }
 
 .step-entry-info a {
-  overflow-wrap: anywhere; /* keep long links from overflowing */
+  overflow-wrap: anywhere; 
 }
+
+
