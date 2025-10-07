@@ -24,16 +24,107 @@
         </nav>
         <main>
             <h1 class="page-title">Mantis Blades</h1>
-            <div class="img-grid">
-                <img src="mantisblades.jpeg" alt="Mantis Blades">
-                <img src="mantisblades2.png" alt="Mantis Blades">
-            </div>
+                <div class="mantis-img">
+                    <img src="mantisblades.jpeg" alt="Mantis Blades">
+                    <br>
+                    <img src="mantisblades2.png" alt="Mantis Blades">
+                </div>
             <div class="Mantis-Blades">
                 <section class="Steps">
-                    <h2 class="step-entry">Step 1</h2>
-                    <p class="step-entry-info"></p>
+                    <h2 class="step-entry"> Supplies</h2>
+                    <ul>
+                        <p class="step-entry-info">
+                            <li>PLA/PETG filament</li>
+                            <li>3D Printer</li>
+                            <li>2x <a href="https://www.amazon.com/4-Pack-MG996R-Torque-Digital-Helicopter/dp/B07MFK266B">MG996R Servos</a> </li>
+                            <li><a href="https://a.co/d/gKbsaUd">Arduino Nano</a></li>
+                            <li><a href="https://a.co/d/2vGjyZ1">MPU-6050 IMU</a></li>
+                            <li><a href="https://a.co/d/2vGjyZ1">6V 2400mAh Battery Pack</a></li>
+                            <li><a href="https://a.co/d/0acszwi">5V 2400mAh USB Battery</a></li>
+                            <li>Miscellaneous cables (For Recharging)</li>
+                            <li>Foam sheets (optional; for padding only)</li>
+                            <li>Solid core wire</li>
+                            <li>Soldering station</li>
+                            <li>Breadboard</li>
+                            <li>Velcro</li>
+                            <li>3D Printer Access</li>
+                        </p>
+                    </ul>
+                    
                 </section>
+                <section class="Steps">
+                    <h2 class="step-entry">Step 1</h2>
+                    <p class="step-entry-info">
+                        <a href="3DMantisParts.zip">Download the attached STL files</a> 
+                        and 3D print them on a 3D printer of your choice that is large 
+                        enough (we recommend 256 cu mm). Use PLA or PETG filament for best
+                        results.
+                    </p>
+                </section>
+                <section class="Steps">
+                    <h2 class="step-entry">Step 2</h2>
+                    <div class="mantis-img">
+                        <img src="step2.png" alt="Step 2; Components">
+                    </div>
+                    <h3>Assembly Instructions</h3>
+                    <p class="step-entry-info">
+                     Begin by securely assembling all of the 3D-printed components using the pre-designed screw holes integrated into the CAD model. Ensure each part is properly aligned and tightened to maintain structural integrity.
+                     <br><br>
+                     Next, install two servo motors into their designated mounting locations on the 3D-printed structure. Use appropriate screws to firmly secure the servos in place.
+                     <br><br>
+                     Once the servos are mounted, proceed to connect their wires to the breadboard according to the corresponding circuit design. Ensure all connections are stable and correctly aligned with the control system.
+                     <br><br>
+                     Attach Velcro straps to the assembly, allowing the device to be comfortably fastened to the user's arm. For improved comfort and safety, especially where the mantis blade or other parts come into contact with the skin, line those areas with a soft cushioning material such as foam. For our project, we used styrofoam.   
+                    </p>
+                </section>
+                <section class="Steps">
+                    <h2 class="step-entry">Step 3</h2>
+                    <div class="mantis-img">
+                        <img src="step3.png" alt="Step 3; Program the Arduino Chip">
+                    </div>
+                    <p class="step-entry-info">
+                        Download and install the Arduino IDE and import the attached code. Next, install the Adafruit MPU6050 library.
+                        <br><br>
+                        Then, save the code, plug in your Arduino Nano, and upload the code. Now you should be good to go!
+                        <br><br>
+                        <a href="BladeCode.zip">Download main-code</a>
+                    </p>
+                </section>
+                <section class="Steps">
+                    <h2 class="step-entry">Step 4</h2>
+                    <div class="mantis-img">
+                        <img src="step4.png" alt="Step 4; Wire and Solder">
+                    </div>
+                    <h3>Electronics and Soldering Instructions</h3>
+                    <p class="step-entry-info">
+                        Start by connecting the battery to the breadboard, ensuring that the battery is fully charged before proceeding. Please note that the battery may require periodic replacements or charging, depending on usage and charge cycles, to maintain optimal performance.
+                        <br><br>
+                        Next, securely attach the IMU (Inertial Measurement Unit) to the breadboard. The IMU will be crucial for controlling the movement of the mantis blade, so proper connection are essential for accurate motion tracking.
+                        <br><br>
+                        Verify that the servos are securely connected to the breadboard. Ensuring the servos are properly mounted will allow for smooth integration with the control system.
+                        <br><br>
+                        Once the connections are established, place the battery into its designated holder, ensuring it is firmly seated. For ease of use, position the IMU in the palm of your hand, where it will interface with the system to control movement. Lastly, secure the breadboard into its designated holder to ensure stability and prevent accidental disconnections during operation.
+                        <br><br>
 
+                    </p>
+                </section>
+                <section class="Steps">
+                    <h2 class="step-entry">Step 5</h2>
+                    <div class="mantis-img">
+                        <img src="step5.png" alt="Step 5, Wear and Use">
+                    </div>
+                    <h3>Wear and Use</h3>
+                    <p class="step-entry-info">
+                       Before using the Mantis Blade, make sure the full assembly is complete. Once everything is ready, take the arm brace and slide it onto your forearm. Ask someone to help you align it correctly if needed.Getting a secure and precise fit is important for both comfort and safety. After it's in place, pull the straps tightly to ensure the Mantis Blade is firmly attached and won’t move around during use.
+                       <br><br>
+                        Next, take the IMU (Inertial Measurement Unit) and hold it in the palm of your hand. At this point, do not power on the electronics. It’s extremely important to check your surroundings and make sure no one is standing nearby. The blade can activate suddenly, and anyone in close range could be hurt.
+                        <br><br>
+                        Once the brace is secure and the area around you is clear, go ahead and turn on the electronics. After that, you’re free to use the Mantis Blade as you like. But always handle it with care. Never use it recklessly or in a way that could injure someone.
+                    </p>
+                </section>
+                <section>
+                    <h2>Did you like this project? <br> Stay Tuned for More!</h2>
+                </section>
             </div>
         </main>
         <footer class="footer">© 2025 ShortVincentMan Personal Website | All Rights Reserved</footer>
