@@ -1,5 +1,5 @@
 {
-  "name": "bootcamp-project-2025",
+  "name": "ShortVincentMan-Website",
   "version": "1.0.0",
   "description": "This is the start of your 2025 bootcamp project!",
   "main": "index.js",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShortVincentMan/bootcamp-project-2025.git"
+    "url": "git+https://github.com/ShortVincentMan.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/ShortVincentMan/bootcamp-project-2025/issues"
+    "url": "https://github.com/ShortVincentMan/issues"
   },
-  "homepage": "https://github.com/ShortVincentMan/bootcamp-project-2025#readme",
+  "homepage": "https://github.com/ShortVincentMan/#readme",
   "dependencies": {
     "typescript": "^5.9.3"
   },
