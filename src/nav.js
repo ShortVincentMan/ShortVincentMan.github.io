@@ -9,22 +9,22 @@
 
   const html = `
     <h1 class="logo">
-      <a href="${base}index.html">Vincent Le</a>
+      <a href="index.html">Vincent Le</a>
     </h1>
     <ul class="nav-list">
-      <li><a href="${base}index.html">Home</a></li>
-      <li><a href="${base}blog.html">Blog</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
 
       <li class="dropdown">
-        <a href="${base}portfolio.html" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+        <a href="portfolio.html" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Portfolio</a>
         <ul class="dropdown-content" role="menu">
-          <li role="none"><a role="menuitem" href="${base}mantisblades.html">Mantis Blades</a></li>
-          <li role="none"><a role="menuitem" href="${base}trimtab.html">TrimTab</a></li>
+          <li role="none"><a role="menuitem" href="mantisblades.html">Mantis Blades</a></li>
+          <li role="none"><a role="menuitem" href="trimtab.html">TrimTab</a></li>
         </ul>
       </li>
 
-      <li><a href="${base}resume.html">Resume</a></li>
-      <li><a href="${base}contact.html">Contact</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   `;
 
