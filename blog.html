@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Blog Page</title>
+        <title>Blog</title>
             <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <nav class="navbar">
-            <h1 class="logo">
-                <a href="index.html">Vincent Le</a>
-            </h1>
-            <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li class="dropdown">
-                    <a href="portfolio.html" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <ul class="dropdown-content" role="menu">
-                            <li role="none"><a role="menuitem" href="mantisblades.html">Mantis Blades</a></li>
-                            <li role="none"><a role="menuitem" href="trimtab.html">TrimTab</a></li>
-                        </ul>
-                </li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>            
-        </nav>
+        <!--Navigation Bar-->
+        <nav class="navbar"></nav>
+        
+        <!---Start main page code-->
         <main>
             <h1 class="page-title">Blog</h1>
-            <p>Pondering my thoughts</p>
-            <p>Stay tuned for more content!</p>
-            <div class="img">
-                <img class="img" src="images/pondering.jpeg" alt="pondering monkey" >
+                <p>Pondering my thoughts</p>
+                <p>Stay tuned for more content!</p>
+                <div class="blog-img">
+                    <img class="img" src="images/pondering.jpeg" alt="pondering monkey" >
+                </div>
+
+            <div class="blog-list">
+                <h2 class="blog-title">Blog List</h2>
+                <div class="blog-container" id="blog-container">
+
+                </div>
             </div>
         </main>
-        <footer class="footer">© 2025 ShortVincentMan Personal Website | <a href="https://www.linkedin.com/in/vincentrle">Linkedin</a> |
-             <a href="https://github.com/ShortVincentMan/ShortVincentMan.github.io"> GitHub</a>| All Rights Reserved
+
+
+        <footer class="footer">
+            © 2025 ShortVincentMan Personal Website | 
+            <a href="https://www.linkedin.com/in/vincentrle">Linkedin</a> |
+            <a href="https://github.com/ShortVincentMan/ShortVincentMan.github.io"> GitHub</a>| 
+            All Rights Reserved
         </footer>
+        <script src="./src/blog.js"></script>
+        <script src="./src/nav.js"></script>
     </body>
 </html>

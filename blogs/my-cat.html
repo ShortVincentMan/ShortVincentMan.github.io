@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>I love my cat</title>
+  <meta name="description" content="Meet Moe, my fluffy coding companion. Photos and notes from life with the most patient QA engineer a developer could ask for." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <!-- NOTE: This file assumes it lives in /html/.
+       If so, the navbar links need ../ to reach root pages. -->
+  <nav class="navbar"></nav>
+
+  <main>
+    <h1 class="page-title">I love my cat</h1>
+    <p class="blog-date">9 October 2025</p>
+
+    <article class="blog-container">
+      <!-- Save your images like this in ../images/ :
+           moe-hero.jpg  -> outdoor chill (img #1)
+           moe-close.jpg -> close-up (img #2)
+           moe-walk.jpg  -> sidewalk sit (img #3)
+           moe-nap.jpg   -> couch nap (img #4)
+           moe-box.jpg   -> box king (img #5)
+      -->
+      <figure class="blog-img">
+        <img src="../images/moe-hero.jpeg" alt="Moe lounging outside, one paw stretched out." />
+        <figcaption style="font-size:12px; margin-top:6px;">Moe in his natural habitat: supervising the neighborhood.</figcaption>
+      </figure>
+
+      <section style="max-width:720px;">
+        <h2 style="font-family:Georgia; margin-top:18px;">Meet Moe: my fluffy coding companion</h2>
+        <p>
+          Between late-night debugging and shipping tiny improvements, one constant keeps me sane:
+          my cat, <strong>Moe</strong>. He’s equal parts roommate, study buddy, and QA engineer. If a
+          build fails, he’ll walk across the keyboard to let me know it’s time for a break.
+        </p>
+        <p>
+          Moe’s personality is a perfect mix of chill and curious. He’ll sunbathe like a professional,
+          then suddenly sprint laps to remind me that context switching is real. When I’m stuck,
+          taking two minutes to pet him often does more than staring at a stack trace.
+        </p>
+        <h3 style="font-family:Georgia;">Moe’s contributions to the workflow</h3>
+        <ul>
+          <li><strong>Quality Assurance:</strong> Paw-based integration testing (usually during meetings).</li>
+          <li><strong>Break Manager:</strong> Schedules forced stretch breaks via head-bonks.</li>
+          <li><strong>Focus Coach:</strong> Sits exactly where I need to read, so I refactor faster.</li>
+          <li><strong>Mascot:</strong> Present for most commits; morale +10.</li>
+        </ul>
+        <p>
+          Things Moe loves: sun patches, small boxes that are clearly too small, and pretending the couch
+          is a cloud. Things Moe tolerates: my camera, lint rollers, and me saying “just one more bug.”
+        </p>
+      </section>
+
+      <section style="margin-top:18px;">
+        <h3 style="font-family:Georgia;">Photo gallery</h3>
+        <div class="pictures-grid" role="list">
+          <figure role="listitem">
+            <img src="../images/moe-close.jpeg" alt="Close-up of Moe’s face with a pink nose." />
+            <figcaption style="font-size:12px; margin-top:6px;">Close-up consultant.</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="../images/moe-walk.jpeg" alt="Moe sitting neatly on a sidewalk in the sun." />
+            <figcaption style="font-size:12px; margin-top:6px;">Sunbeam session.</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="../images/moe-nap.jpeg" alt="Moe napping on a couch with a towel pillow." />
+            <figcaption style="font-size:12px; margin-top:6px;">Post-sprint recovery.</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="../images/moe-box.jpeg" alt="Moe sitting in a too-small box like a champion." />
+            <figcaption style="font-size:12px; margin-top:6px;">If it fits, I sits.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section style="max-width:720px; margin-top:18px;">
+        <h3 style="font-family:Georgia;">What Moe teaches me</h3>
+        <p>
+          Slow is smooth and smooth is fast. Take breaks, keep your environment cozy,
+          and don’t underestimate the power of a well-timed nap. Thanks, Moe.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <script src="../src/nav.js"></script>
+</body>
+</html>

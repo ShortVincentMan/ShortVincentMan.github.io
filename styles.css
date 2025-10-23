@@ -1,3 +1,4 @@
+/* CSS FILES */
 :root {
   /* variables */
   --cg-black: rgb(30, 32, 32);
@@ -426,5 +427,31 @@ form {
     max-width: none;
     border-radius: 8px;
 }
+ /*-------------- Blog Page --------------*/
 
+ .blog-img img{
+  max-width: 500px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-left: 20px;
+  background: #fff;
+ }
 
+ .blog-list {
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 8px 10px;
+  background: gray;
+ }
+ .blog-title {
+  color:white;
+ }
+/* Blog Container*/
+.blog-container {
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 16px 20px;
+  background: #fff;
+}
