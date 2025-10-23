@@ -3,7 +3,7 @@
   // figure out the base for links
   const isBlogDetail = location.pathname.includes("/blogs/");
   const isGhPages = location.hostname.endsWith("github.io");
-  const repoName = "bootcamp-project-2025"; // change if your repo name differs
+  const repoName = ""; // change if your repo name differs
 
   const base = isGhPages ? `/${repoName}/` : isBlogDetail ? "../" : "./";
 
